@@ -10,6 +10,6 @@ int main()
 		if (a[i] == 'a' || a[i] == 'e' || a[i] == 'i' || a[i] == 'o' || a[i] == 'u') 
 			vowel =1;
 	}
-	if (vowel == 0) printf("There is no vowel"); else printf("There is vowel");
+	if (vowel == 0) printf("There is not vowel"); else printf("There is vowel");
 	return 0;
 }
